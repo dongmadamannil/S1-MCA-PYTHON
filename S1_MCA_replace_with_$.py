@@ -1,4 +1,4 @@
-a=input("Enter a string")
+a=input("Enter string")
 a1=a[0]
 a2=a[1:]
 k=a2.replace(a1,"$")
