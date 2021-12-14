@@ -12,7 +12,7 @@ for i in range(n):
 i=0;
 print("\n\n\nDEtails of employees annual salary >50k\n\n");
 for obj in list:
-    if(int(obj.salary)==50000):
+    if(int(obj.salary*12)==1500000):
         i=i+1
         print("details of ",i,"employee\n");
         print( "name=",obj.name,"\nEmployee id:" ,obj.empid,"\n SALARY:",obj.salary,"\n DEPARTMENT:",obj.dept)
