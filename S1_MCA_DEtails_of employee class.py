@@ -7,7 +7,7 @@ class Emplyee:
 list = [] 
 n=int(input("ENter Number of employes"));
 for i in range(n):
- print("Enter details of ",i,"th Employee")
+ print("\n\nEnter details of ",i,"th Employee")
  list.append( Emplyee(input("ENter name "), input("ENter Eid"),int(input("Enter salary")),input("Enter department")) )
 i=0;
 print("\n\n\nDEtails of employees annual salary >50k\n\n");
