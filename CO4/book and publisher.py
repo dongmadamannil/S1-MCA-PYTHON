@@ -4,17 +4,17 @@ class Publisher:
     def display(self):
         print("Publisher:",self.name)
 class Book(Publisher):
-    def __init__(self,name,title,auther):
+    def __init__(self,name,title,author):
         Publisher.__init__(self,name)
         self.title=title
-        self.auther=auther
+        self.author=author
     def display(self):
         Publisher.display(self)
         print("Title:",self.title);
-        print("Auther:",self.auther);
+        print("Auther:",self.author);
 class Python(Book):
-    def __init__(self,name,title,auther,price,pages):
-        Book.__init__(self,name,title,auther)
+    def __init__(self,name,title,author,price,pages):
+        Book.__init__(self,name,title,author)
         self.price=price
         self.pages=pages
     def display(self):
