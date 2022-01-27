@@ -1,0 +1,6 @@
+def amstro(x):
+    ams=int(0)
+        d=int(x%10)
+        x=int(x/10)
+        print("Anstrong")
+        print("Not Amstrong")

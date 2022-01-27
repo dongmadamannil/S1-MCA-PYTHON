@@ -11,7 +11,7 @@ class B:
         self.b=b
 
 ob1 = A(input("Enter Name of employee "),int(input("Enter daily salary ")))
-ob2 = B(input("Enter employee Id "),int(input("Enter Number of working days")))
+ob2 = B(input("Enter emp id "),int(input("Enter Number of working days")))
 print(ob1 * ob2)
 
 
