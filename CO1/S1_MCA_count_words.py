@@ -1,4 +1,5 @@
-k=input("ENter String")
+k="Don giupadbad"
 l=k.split()
-z={x:l.count(x) for x in l}
+z=len(l)
 print(z)
+print(l[0].istitle())
