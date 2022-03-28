@@ -1,5 +1,5 @@
-from datetime import date
-todays_date = date.today()
+import  datetime
+todays_date = datetime.date.today()
 startYear =int(todays_date.year)
 print ("Enter last year")
 endYear = int(input())

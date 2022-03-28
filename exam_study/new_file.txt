@@ -1,0 +1,6 @@
+    n=int(x)
+    while(x!=0):
+        ams=int(ams+d*d*d)
+    if(ams==n):
+    else:
+amstro(int(input("Enter Number")))
